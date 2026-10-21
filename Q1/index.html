@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 1</title>
+</head>
+<body>
+
+    <h2>Interactive Text Changer</h2>
+
+    <div id="myElement">
+        <p id="message">Welcome to my website!</p>
+    </div>
+
+    <button id="changeBtn" type="button">Change Message</button>
+
+    <script>
+        let message = document.getElementById("message");
+        let button = document.getElementById("changeBtn");
+
+        function changeMessage() {
+            message.textContent = "Hello there!";
+        }
+
+        button.addEventListener("click", changeMessage);
+    </script>
+
+</body>
+</html>

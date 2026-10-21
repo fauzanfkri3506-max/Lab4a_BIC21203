@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 3</title>
+</head>
+<body>
+
+    <h2>Dynamic Number Generator</h2>
+
+    <button id="generateBtn" type="button">Generate</button>
+
+    <ol id="numberList"></ol>
+
+    <script>
+        let button = document.getElementById("generateBtn");
+        let numberList = document.getElementById("numberList");
+
+        function generateNumbers() {
+            numberList.textContent = "";
+
+            for (let i = 1; i <= 5; i++) {
+                let item = document.createElement("li");
+
+                item.textContent = "The number is " + i;
+
+                numberList.appendChild(item);
+            }
+        }
+
+        button.addEventListener("click", generateNumbers);
+    </script>
+
+</body>
+</html>
