@@ -39,9 +39,13 @@ The webpage initially displays "Welcome to my website!". When the user clicks th
 4. Verify that the message changes to "Hello there!".
 
 ### Screenshot
-![Question 1 Before](ss_q1_before.png)
+Before
 
-![Question 1 After](ss_q1_after.png)
+![Question 1](ss_q1_before.png)
+
+After
+
+![Question 1](ss_q1_after.png)
 
 ---
 
@@ -80,13 +84,21 @@ The webpage accepts a number and compares it with 10. It displays whether the nu
 5. Verify that the displayed message matches the input.
 
 ### Screenshots
-![Question 2 - Lower Than 10](screenshots/q2-test-5.png)
+Lower Than 10
 
-![Question 2 - Equal to 10](screenshots/q2-test-10.png)
+![Question 2 - Lower Than 10](ss_q2_test_5.png)
 
-![Question 2 - Higher Than 10](screenshots/q2-test-15.png)
+Equal to 10
 
-![Question 2 - Invalid Input](screenshots/q2-test-invalid.png)
+![Question 2 - Equal to 10](ssq2_test_10.png)
+
+Higher Than 10
+
+![Question 2 - Higher Than 10](ss_q2_test_15.png)
+
+Invalid Input
+
+![Question 2 - Invalid Input](ss_q2_test_invalid.png)
 
 ---
 
@@ -121,48 +133,10 @@ When the user clicks the "Generate" button, JavaScript creates five list items d
 5. Click the button again and confirm that duplicate items are not created.
 
 ### Screenshot
-![Question 3 Output](screenshots/q3-output.png)
-
----
-
-## Technologies Used
-
-- HTML5
-- JavaScript
-- Visual Studio Code
-- Git and GitHub
-- Google Chrome or another modern web browser
+![Question 3 Output](ss_q3.png)
 
 ---
 
 ## Reflection
 
 Through this lab, I learned how to use JavaScript functions and event listeners to make web pages interactive. I practised validating user input using conditional statements and handling invalid values correctly. I also learned how to use a for loop and DOM manipulation methods to generate HTML elements dynamically. In addition, I understood the importance of clearing existing elements to prevent duplicate output. Overall, this lab improved my understanding of client-side scripting and the interaction between JavaScript and HTML.
-
----
-
-## Repository Structure
-
-```text
-bic21203-lab4a-javascript/
-├── Q1/
-│   └── index.html
-├── Q2/
-│   └── index.html
-├── Q3/
-│   └── index.html
-├── screenshots/
-│   ├── q1-output.png
-│   ├── q2-test-5.png
-│   ├── q2-test-10.png
-│   ├── q2-test-15.png
-│   ├── q2-test-invalid.png
-│   └── q3-output.png
-└── README.md
-```
-
----
-
-## Conclusion
-
-This lab demonstrates the use of JavaScript to manipulate webpage content, validate user input, handle button-click events, and generate HTML elements dynamically. The three exercises provide practical experience with fundamental client-side scripting techniques.
