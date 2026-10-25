@@ -90,7 +90,7 @@ Lower Than 10
 
 Equal to 10
 
-![Question 2 - Equal to 10](ssq2_test_10.png)
+![Question 2 - Equal to 10](ss_q2_test_10.png)
 
 Higher Than 10
 
